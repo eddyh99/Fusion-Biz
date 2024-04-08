@@ -1,11 +1,13 @@
 <?php
 //Menggabungkan semua bagian halaman
-require_once('header.php');
-require_once('sidebar.php');
+require_once('header-landing.php');
+// require_once('header.php');
+// require_once('sidebar.php');
 if (isset($content)){
 	$this->load->view($content);
 }
 //if (isset($this->session->userdata['logged_status'])) {
-require_once('footer.php');
+// require_once('footer.php');
+require_once('footer-landing.php');
 //}
 ?>

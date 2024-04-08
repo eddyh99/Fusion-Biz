@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 if ($_SERVER['HTTP_HOST'] == 'localhost') {
-    $addurl = '/'.'fusion/'; 
+    $addurl = '/'.'Fusion-Biz/'; 
 }else{
     $addurl = '/'; 
 }

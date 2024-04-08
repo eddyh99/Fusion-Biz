@@ -1,0 +1,96 @@
+/*----------------------------------------------------------
+    File Name  : css/styles.css
+    Desc       : File ini merupakan styling untuk Auth dan Landing page
+
+
+------------------------------------------------------------*/ 
+
+/**
+ * TABLE OF CONTENTS
+ *
+ * 0. Root
+ * 1. Auth 
+ * 2. Responsive
+ *      2.1 max-width 320px
+ *      2.2 max-width 575px
+ *      2.3 min-width 425px
+ *      2.4 min-width 576px
+ *      2.5 min-width 768px
+ *      2.6 min-width 992px 
+ *      2.7 min-width 1200px
+ *      2.8 min-width 1400px
+ * 4. Darkmode
+ * 5. Overwrite Bootstrap
+ *
+ */
+
+/*----------------------------------------------------------
+0. Root Start 
+------------------------------------------------------------*/ 
+
+:root{
+  --bg-primary-fusion: #25344B; 
+}
+
+body {
+  background-color: #e9f1ff;
+}
+
+/*----------------------------------------------------------
+0. Root End 
+------------------------------------------------------------*/ 
+
+
+/*----------------------------------------------------------
+1. Auth Start 
+------------------------------------------------------------*/ 
+.bg-auth {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  color: #000000;
+  box-shadow:
+  5.5px 4.8px 6.6px rgba(0, 0, 0, 0.01),
+  11.6px 10.2px 18.3px rgba(0, 0, 0, 0.015),
+  21.5px 18.9px 44px rgba(0, 0, 0, 0.02),
+  57px 50px 146px rgba(0, 0, 0, 0.03);
+}
+
+.bg-login {
+  height: 300px;
+  background-image: url('../img/auth/bg-auth.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px 12px 0px 0px;
+  -webkit-border-radius: 12px 12px 0px 0px;
+  -moz-border-radius: 12px 12px 0px 0px;
+  -ms-border-radius: 12px 12px 0px 0px;
+  -o-border-radius: 12px 12px 0px 0px;
+}
+
+/*----------------------------------------------------------
+1. Auth End 
+------------------------------------------------------------*/ 
+
+
+
+/*----------------------------------------------------------
+2. Responsive Start 
+------------------------------------------------------------*/
+@media (min-width: 992px) {
+  .bg-login {
+    height: auto;
+    border-radius: 12px 0px 0px 12px;
+    -webkit-border-radius: 12px 0px 0px 12px;
+    -moz-border-radius: 12px 0px 0px 12px;
+    -ms-border-radius: 12px 0px 0px 12px;
+    -o-border-radius: 12px 0px 0px 12px;
+  }
+} 
+/*----------------------------------------------------------
+2. Responsive End 
+------------------------------------------------------------*/ 
